@@ -1,0 +1,189 @@
+/* CSS Stylesheet for the Psst microblog */
+/* Author: Your Name                     */
+
+html {
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+.collection {
+    border: 10px solid #EEEEEE;
+    background: #EEEEEE
+}
+.psst {
+  padding: 5px 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+    border: 10px solid #C6D4E1;
+    background: #C6D4E1;
+}
+
+date {
+color:#ff0000
+}
+b, strong {
+     color: white;
+     }
+.Advanced {
+    background-color:#d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.searchType {
+    display: none;
+    padding : 5px;
+}
+
+header{
+  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+}
+.logo {
+  font-size: 3em;
+    border:1px solid #3d3d3d;
+    background: #3d3d3d;
+    color: white;
+    text-align: center;
+}
+.Login {
+    margin: auto;
+    border: 15px solid #3d3d3d;
+    background: #3d3d3d;
+    color: white;
+    line-height: 150%;
+    text-align: center;
+}
+
+/* Navigation bar based off http://css-snippets.com/simple-horizontal-navigation/
+    The Following CSS is based off this design  */
+
+.nav ul {
+    text-decoration: none;
+    list-style: none;
+    background-color: #3d3d3d;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff
+}
+
+.nav a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #5F81A7;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+
+footer {
+    margin: auto;
+    border: 9px solid #3d3d3d;
+    background: #3d3d3d;
+    color: white;
+    line-height: 150%;
+    text-align: center;
+}
+
+
+usernameBig {
+font-size: 3em;
+vertical-align: middle;
+}
+
+@media screen and (min-width: 600px) {
+    .nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+    }
+    .nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+
+    /*This is my css, but in the section from that design to acomidate for the small screens*/
+
+.usernameBig a:link{
+text-decoration: none;
+    color: #00000000
+}
+    .collection {
+        margin: auto;
+        width: 90%;
+        border: 10px solid #EEEEEE;
+        background: #EEEEEE
+    }
+    .psst {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border: 10px solid #C6D4E1;
+        background: #C6D4E1;
+        padding: 5px 5px;
+    }
+
+        .userList {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border: 10px solid #C6CAD3;
+        background: #C6CAD3;
+        padding: 5px 5px;
+    }
+    .avatar {
+    float: left;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px:
+}
+.avatarMed img{
+    width: 100px;
+    height: 100px:
+}
+
+.avatarBig img {
+vertical-align: middle;
+    width: 250px;
+    height: 250px:
+}
+
+        .content {
+        text-align: center;
+        width: 85%;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border: 10px solid #EEEEEE;
+        background: #EEEEEE;
+        padding: 5px 5px;
+    }
+    .ad {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 20px;
+        border: 10px solid #a03838;
+        color: white;
+        text-align: center;
+        background: #a03838
+        padding: 5px 5px;
+    }
+}
